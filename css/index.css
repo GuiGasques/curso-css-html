@@ -1,0 +1,46 @@
+header{
+    background-color: #313030;
+    border-bottom: 10px solid #2C3A47;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between; /** coloca os coneteudos espaçados**/
+    }
+
+nav{
+    text-align: right;
+}
+
+a{
+    display: inline-flex;
+    align-items: center; 
+    color: #FFF;
+    font-size: 20px;
+    font-family: "Fira Code";
+    font-weight: 500;
+    margin-right: 30px;
+    }
+
+a:before{          /** faz algo antes(before) ou depois(after) da tag selecionada**/
+    content: "";
+    background-color: #6D214F;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+#button{
+    display: inline-block ; 
+    background-color: #6D214F;
+    padding: 18px 20px;
+    box-shadow: 5px 5px 0px #2C3A47; /** faz a sombra atras do botão (x,y,blur) **/
+    margin-right: 0;
+    transition: transform 100ms linear; /** faz uma animação de aumentar**/
+}
+
+#button:hover{ /** muda cor do botão ao passar o mouse me cima**/
+    background-color:#182C61;
+    transform: scale(1.08); /** aumenta o botão **/
+}
