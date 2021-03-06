@@ -1,0 +1,16 @@
+.button{ /** . é para buscar classe # id**/
+    display: inline-block ; 
+    background-color: #6D214F;
+    padding: 18px 20px;
+    box-shadow: 5px 5px 0px #000; /** faz a sombra atras do botão (x,y,blur) **/
+    margin-right: 0;
+    transition: transform 100ms linear; /** faz uma animação de aumentar**/
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.button:hover{ /** muda cor do botão ao passar o mouse me cima**/
+    background-color:#182C61;
+    transform: scale(1.08); /** aumenta o botão **/
+}
