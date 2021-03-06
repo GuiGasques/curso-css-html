@@ -1,0 +1,18 @@
+.action{
+    display: inline-flex;
+    align-items: center; 
+    color: #FFF;
+    font-size: 20px;
+    font-family: "Fira Code";
+    font-weight: 500;
+    margin-right: 30px;
+    text-decoration: none;
+    }
+
+.action:before{          /** faz algo antes(before) ou depois(after) da tag selecionada**/
+    content: "";
+    background-color: #6D214F;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}

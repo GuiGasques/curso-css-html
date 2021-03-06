@@ -1,0 +1,10 @@
+.header{
+    background-color: #313030;
+    border-bottom: 10px solid #000;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between; /** coloca os coneteudos espaçados**/
+    }
