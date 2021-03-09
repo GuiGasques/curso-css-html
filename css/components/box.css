@@ -7,6 +7,6 @@
 
 }
 
-.box .title{      /** o espaço entre as palavras quer dizer que isso é atrlado ao filho da classe,apenas nesse contexto**/
+.box .main-title{      /** o espaço entre as palavras quer dizer que isso é atrlado ao filho da classe,apenas nesse contexto**/
     margin-bottom: 39px;
 }
