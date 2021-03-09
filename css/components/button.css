@@ -10,6 +10,11 @@
     text-decoration: none;
 }
 
+.button._second{
+    font-family: 'Press Start 2P', cursive;
+}
+
+
 .button:hover{ /** muda cor do botão ao passar o mouse me cima**/
     background-color:#182C61;
     transform: scale(1.08); /** aumenta o botão **/
