@@ -3,10 +3,15 @@
     font-size: 25px;
     color: #FFF;
     display: flex;
+    align-items: center;
 }
 
 .skill-tec .icon{
     margin-right: 25px;
+}
+
+.skill-tec .title{
+    margin-bottom: 10px;
 }
 
 .skill-tec .rigth{
