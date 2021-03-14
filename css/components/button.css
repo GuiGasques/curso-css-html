@@ -1,13 +1,14 @@
 .button{ /** . é para buscar classe # id**/
     display: inline-block ; 
-    background-color: #6D214F;
+    background-color: #47f7b2;
     padding: 18px 20px;
     box-shadow: 5px 5px 0px #000; /** faz a sombra atras do botão (x,y,blur) **/
     margin-right: 0;
     transition: transform 100ms linear; /** faz uma animação de aumentar**/
     font-size: 20px;
-    color: #FFF;
+    color: #000;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .button._second{
@@ -16,6 +17,7 @@
 
 
 .button:hover{ /** muda cor do botão ao passar o mouse me cima**/
-    background-color:#182C61;
+    background-color:#000;
     transform: scale(1.08); /** aumenta o botão **/
+    color: #47f7b2;
 }

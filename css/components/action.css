@@ -11,7 +11,7 @@
 
 .action:before{          /** faz algo antes(before) ou depois(after) da tag selecionada**/
     content: "";
-    background-color: #6D214F;
+    background-color: #47F7B2;
     width: 10px;
     height: 10px;
     margin-right: 10px;

@@ -1,8 +1,19 @@
+@font-face {
+    font-family: Clip;
+    src: url("https://acupoftee.github.io/fonts/Clip.ttf");
+}
+
 .main-title{
-    color: #6D214F;
-    font-family: 'Press Start 2P', cursive; 
+    color: #47f7b2;
+    font-family: 'Press Start 2P', cursive;
+    /**font-family: Clip;**/
     font-size: 40px;
-    text-shadow: 4px 4px 0 #000;
+    /**text-shadow: 4px 4px 0 #000;**/
+    text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #3fdb9e,
+    -0.2rem 0.1rem 1rem #3fdb9e, 0.2rem 0.1rem 1rem#3fdb9e,
+    0 -0.5rem 2rem #2fa476, 0 0.5rem 3rem #2fa476;
+    animation: shine 2s forwards, flicker 3s infinite;
+    text-transform: uppercase;
 }
 
 .main-title._second{
@@ -10,3 +21,40 @@
     text-shadow: none;
     text-align: center;
 }
+
+
+
+@keyframes blink {
+    0%,
+    22%,
+    36%,
+    75% {
+      color: #ffe6ff;
+      text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #3fdb9e,
+        -0.2rem 0.1rem 1rem #3fdb9e, 0.2rem 0.1rem 1rem #3fdb9e,
+        0 -0.5rem 2rem #2fa476, 0 0.5rem 3rem #2fa476;
+    }
+    28%,
+    33% {
+      color: #3fdb9e;
+      text-shadow: none;
+    }
+    82%,
+    97% {
+      color: #2fa476;
+      text-shadow: none;
+    }
+  }
+  
+  @keyframes shine {
+    0% {
+      color: #17523b;
+      text-shadow: none;
+    }
+    100% {
+      color: #ffe6ff;
+      text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #3fdb9e,
+        -0.2rem 0.1rem 1rem #3fdb9e, 0.2rem 0.1rem 1rem #3fdb9e,
+        0 -0.5rem 2rem #2fa476, 0 0.5rem 3rem #2fa476;
+    }
+  }
