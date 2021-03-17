@@ -10,3 +10,7 @@ button{
 body{
     font-family: "Fira Code";
 }
+
+a{
+    text-decoration: none;
+}
