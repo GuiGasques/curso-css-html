@@ -1,4 +1,4 @@
-.action{
+.main-action{
     display: inline-flex;
     align-items: center; 
     color: #FFF;
@@ -9,7 +9,7 @@
     text-decoration: none;
     }
 
-.action:before{          /** faz algo antes(before) ou depois(after) da tag selecionada**/
+.main-action:before{          /** faz algo antes(before) ou depois(after) da tag selecionada**/
     content: "";
     background-color: #47F7B2;
     width: 10px;
