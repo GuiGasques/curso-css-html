@@ -1,4 +1,4 @@
-.button{ /** . é para buscar classe # id**/
+.main-button{ /** . é para buscar classe # id**/
     display: inline-block ; 
     background-color: #47f7b2;
     padding: 18px 20px;
@@ -11,12 +11,12 @@
     text-transform: uppercase;
 }
 
-.button._second{
+.main-button._second{
     font-family: 'Press Start 2P', cursive;
 }
 
 
-.button:hover{ /** muda cor do botão ao passar o mouse me cima**/
+.main-button:hover{ /** muda cor do botão ao passar o mouse me cima**/
     background-color:#000;
     transform: scale(1.08); /** aumenta o botão **/
     color: #47f7b2;
