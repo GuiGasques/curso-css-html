@@ -9,7 +9,7 @@
 .main-carousel::after{
     content: "";
     height:6px;
-    background-color: black;
+    background-color: #47f7b2;
     display: block;
     width: calc(100% - 80px);
     position: absolute;
@@ -23,7 +23,7 @@
     display: block;
     width: 100%;
     position: absolute;
-    border: 3px dashed #000;
+    border: 3px dashed #47f7b2;
     left:0px;
     top: 30px;
     box-sizing: border-box;

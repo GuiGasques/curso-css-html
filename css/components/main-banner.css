@@ -1,5 +1,5 @@
 .main-banner{
-    background-image: url(../../assets/img/background.png);
+    background-image: url(../../assets/img/background2.jpg);
     height: 590px;
     box-sizing: border-box;
     background-repeat: no-repeat;
@@ -14,9 +14,8 @@
     flex-direction: column;
     width: 760px;
     justify-content: center;
-    /**margin-left: 210px;
+    margin-left: 230px;
     margin-top: 20px;
-    **/
 }
 
 
