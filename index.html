@@ -9,7 +9,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
 
 
-        <link rel="stylesheet" href="css/reset.css"> <!-- Conecta com outros arquivos-->
+        <link rel="stylesheet" href="css/reset.css"> <!-- Conecta com outros arquivos .css-->
         <link rel="stylesheet" href="css/components/main-title.css">
         <link rel="stylesheet" href="css/components/main-subtitle.css">
         <link rel="stylesheet" href="css/components/main-box.css">
@@ -22,7 +22,10 @@
         <link rel="stylesheet" href="css/components/wrapper-skill.css">
         <link rel="stylesheet" href="css/components/progress-bar.css">
         <link rel="stylesheet" href="css/components/main-descripition.css">
+        <link rel="stylesheet" href="css/components/main-carousel.css">
         <link rel="stylesheet" href="css/components/button-arrow.css">
+        <link rel="stylesheet" href="css/components/node-card.css">
+        
     </head>
     
     <body>
@@ -129,12 +132,44 @@
         <section class="main-section">
             <h2 class="main-title _second">Sobre</h2>
 
+            <section class="main-carousel">
+                <button class="button-arrow _left"><span class="content">Esquerda</span></button>
+
+                <div class="items">
+                    <div class="elements">
+                        <figure class="node-card">
+                            <figcaption class="title">2016</figcaption>
+                            <div class="logo">
+                                <img src="img/etec_logo.png" alt="Logo da Etec" >
+                            </div>
+                        </figure>
+                        
+                        
+                        <figure class="node-card">
+                            <figcaption class="title">2019</figcaption>
+                            <div class="logo">
+                                <img src="img/ufabc_logo2.png" alt="Logo da UFABC 2 " >
+                            </div>
+                        </figure>
+                        
+                        
+                        <figure class="node-card">
+                            <figcaption class="title">2024</figcaption>
+                            <div class="logo">
+                                <img src="img/ufabc_logo2.png" alt="Logo da UFABC 2" >
+                            </div>
+                        </figure>
+                    </div>
+                </div>
+                <button class="button-arrow _right"><span class="content">Direita</span></button>
+            </section>
+
             <p class="main-description">
                 lorem ipsum dolor sit amet consectetur adipiscing elit et bibendum lobortis tempor aliquam a rutrum fermentum per est mi nascetur volutpat rhoncus curae vivamus netus ac pretium habitant integer maximus
             </p>
-
-            <button class="button-arrow _left"><span class="content">Esquerda</span></button>
-            <button class="button-arrow _right"><span class="content">Direita</span></button>
         </section>
+
+
+        <script src="js/componets/main-carousel.js"></script>
     </body>
 </html>
