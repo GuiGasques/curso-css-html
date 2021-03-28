@@ -1,14 +1,12 @@
 .main-footer{
-    width: 1384px;
-    height: 100px;
     background-color: #000;
+    display: flex;
+    justify-content: center;
+    padding-top: 28px;
+    padding-bottom: 28px
 }
 
-.main-footer .redes_sociais{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 28px;
-    /**padding-bottom: 28px;**/
-    padding-left: 612px;
-    padding-right: 612px;
+.main-footer .actions{
+    margin-right: 20px;
+    margin-left: 20px;
 }
