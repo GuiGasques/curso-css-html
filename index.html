@@ -36,10 +36,10 @@
         <header class="main-header">
            <img src="assets/img/logo.png" alt="Logo">
             <nav>
-                <a class="main-action"  href="" lang="jp">Skills</a>
-                <a class="main-action" href="">Projetos</a>
-                <a class="main-action" href="">Sobre</a>
-                <a class="main-action" href="">Contatos</a>
+                <a class="main-action"  href="#Skilss">Skills</a>
+                <a class="main-action" href="#Projects">Projetos</a>
+                <a class="main-action" href="#About">Sobre</a>
+                <a class="main-action" href="#Contact">Contatos</a>
                 <a class="main-button" href="" lang="en" >Download CV</a>
             </nav>
         </header>
@@ -58,7 +58,7 @@
             </div>
         </section>
 
-        <section class="main-section"> 
+        <section class="main-section" id="Skilss"> 
             <h2 class="main-title _second">Skills</h2>
 
             <div class="wrapper-skill">
@@ -120,7 +120,7 @@
             </div>
         </section>
 
-        <section class="main-section _projects">
+        <section class="main-section _projects" id="Projects">
             <h2 class="main-title _second">Projetos</h2>
             <a href="">
                 <img class = "ProjectImage" src="img/logo_helpStProject.png" alt="Logo do HelpST"> 
@@ -133,7 +133,7 @@
             </a>
         </section>   
 
-        <section class="main-section">
+        <section class="main-section" id="About">
             <h2 class="main-title _second">Sobre</h2>
 
             <section class="main-carousel">
@@ -173,7 +173,7 @@
             </p>
         </section>
 
-        <form class="main-form">
+        <form class="main-form" id="Contact">
 
             <legend class="main-title _second">Contato</legend>
 
@@ -197,5 +197,15 @@
 
 
         <script src="js/componets/main-carousel.js"></script>
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script type="text/javascript" >
+          $(document).on('click', 'a[href^="#"]', function (event) {
+            event.preventDefault();
+        
+            $('html, body').animate({
+                scrollTop: $($.attr(this, 'href')).offset().top
+            }, 500);
+          });
+        </script>
     </body>
 </html>
