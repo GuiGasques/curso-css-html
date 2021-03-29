@@ -21,3 +21,7 @@
     transform: scale(1.08); /** aumenta o botão **/
     color: #47f7b2;
 }
+
+.main-button._full{
+    width: 100%;
+}
